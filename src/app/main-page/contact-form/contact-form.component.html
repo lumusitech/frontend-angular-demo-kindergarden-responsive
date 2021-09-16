@@ -1,0 +1,38 @@
+<form (ngSubmit)="onSubmit()" class="bg-success bg-gradient">
+    <div class="mb-3 ">
+        <label for="inputName " class="form-label text-light ">Nombre y Apellido</label
+    >
+    <input type="text " class="form-control " id="inputName " />
+  </div>
+  <div class="mb-3 ">
+    <label for="exampleInputEmail1 " class="form-label text-light "
+      >Dirección de Email</label
+    >
+    <input type="email " class="form-control " id="exampleInputEmail1 " />
+  </div>
+  <div class="mb-3 ">
+    <label for="inputTel " class="form-label text-light "
+      >Número de Teléfono</label
+    >
+    <input type="tel " class="form-control " id="inputTel " />
+  </div>
+  <!-- <div class="mb-3 ">
+            <label for="exampleInputPassword1 " class="form-label text-light ">Password</label>
+        <input type="password " class="form-control " id="exampleInputPassword1 ">
+    </div> -->
+    <div class="mb-3 form-check ">
+        <input type="checkbox " class="form-check-input " id="exampleCheck1 " />
+        <label class="form-check-label text-light " for="exampleCheck1 ">Prefiere contacto vía WhatsApp</label
+    >
+  </div>
+  <div class="form-floating ">
+    <textarea
+      class="form-control mt-2 mb-3 "
+      placeholder="Leave a comment here "
+      id="floatingTextarea2 "
+      style="height: 100px "
+    ></textarea>
+    <label for="floatingTextarea2 ">Comments</label>
+    </div>
+    <button type="submit " class="btn btn-primary btn-md ">Enviar</button>
+</form>
